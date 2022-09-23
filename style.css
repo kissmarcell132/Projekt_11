@@ -1,3 +1,7 @@
+body{
+    background-color: rgba(0, 0, 0, 0.733);
+}
+
 .wrapper{
     width: 99%;
     margin-left: auto;
@@ -5,11 +9,12 @@
 }
 .header{
     position: relative;
-    height: 400px;
+    height: 350px;
     background: url('kepek/banner.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
+    opacity: 100%;
 }
 .center{
     color: black;
@@ -19,4 +24,41 @@
     transform: translate(-50%, -50%);
     font-size: 150px;
     text-shadow: 2px 2px 8px green;
+}
+
+.menu-wrap{
+    width: 100%;
+    background-color: darkgreen;
+}
+
+.menu {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(5, 100, 29);
+    overflow: hidden;
+}
+
+.menu ul li{
+    float: left;
+    text-align: center;
+    border-right: 1px solid rgb(24, 151, 109);
+    border-left: 1px solid rgb(24, 151, 109);
+}
+
+.menu ul li a {
+    display: block;
+    color: whitesmoke;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    background-color: #111;
 }
