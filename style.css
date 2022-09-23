@@ -106,9 +106,6 @@ body{
     max-width: 75%;
 }
 
-.row{
-    margin-top: 35px;
-}
 
 
 .text-1 {
@@ -123,7 +120,12 @@ body{
     margin-right: 15px; */
 }
 
+.main .column {
+    margin-top: 35px;
+}
+
 .main img{
+    object-fit: cover;
     height: 100%;
     width: 100%;
     border-radius: 14px;
