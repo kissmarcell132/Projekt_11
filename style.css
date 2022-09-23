@@ -16,6 +16,16 @@ body{
     display: block;
     opacity: 100%;
 }
+.header-1{
+    position: relative;
+    height: 350px;
+    background: url('kepek/gambling.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    opacity: 100%;
+    filter: brightness(125%);
+}
 .center{
     color: black;
     position: absolute;
@@ -24,11 +34,39 @@ body{
     transform: translate(-50%, -50%);
     font-size: 150px;
     text-shadow: 2px 2px 8px green;
+    filter: brightness(45%);
+}
+
+.center-1{
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 150px;
+    text-shadow: 2px 2px 8px red;
 }
 
 .menu-wrap{
     width: 100%;
     background-color: darkgreen;
+}
+.menu-wrap-1{
+    width: 100%;
+    background-color: #C8342A;
+}
+
+.menu-wrap-1 .nav-link{
+    color: black;
+    font-weight: bold;
+}
+.menu-wrap-1 .nav-link:hover{
+    background-color:black;
+    color: white;
+}
+.menu-wrap-1 .nav-item{
+    border-right: 1px solid #c25d55;
+    border-left: 1px solid #c25d55;
 }
 
 .menu {
