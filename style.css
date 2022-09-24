@@ -130,3 +130,16 @@ body{
     width: 100%;
     border-radius: 14px;
 }
+
+.footer-1{
+    width: 75%;
+    margin-top: 35px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #c8352aa2;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    min-height: 45px;
+    color: #ffffff;
+}
