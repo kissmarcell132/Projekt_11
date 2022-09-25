@@ -120,6 +120,22 @@ body{
     margin-right: 15px; */
 }
 
+.text-0 {
+    background-color: rgb(1, 95, 1);
+    border-radius: 14px;
+    padding: 30px;
+    font-size: 1.1em;
+    color: black;
+    text-align: justify;
+    height: 100%;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+}
+
+.text-0 h1, .text-0 h2{
+    text-align: center;
+}
+
 .main .column {
     margin-top: 35px;
 }
@@ -131,22 +147,31 @@ body{
     border-radius: 14px;
 }
 
-.footer-1{
+.footer-1, .footer{
     width: 75%;
     margin-top: 35px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 14px;
+    min-height: 30px;
+    margin-bottom: 10px;
+}
+
+.footer{
+    background-color: rgb(1, 95, 1);
+    color: black;
+}
+
+.footer-1{
     background-color: #c8352aa2;
-    border-top-left-radius: 14px;
-    border-top-right-radius: 14px;
-    min-height: 45px;
     color: #ffffff;
 }
 
 .card{
     margin-left: 6%;
     margin-top: 35px;
+    margin-bottom: 10px;
 }
 
 .clear{
