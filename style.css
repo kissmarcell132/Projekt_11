@@ -181,3 +181,8 @@ body{
 .card img{
     border-radius: 150px;
 }
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
