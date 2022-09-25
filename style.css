@@ -41,7 +41,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 100px;
+    font-size: clamp(50px, 8vw, 130px);
     text-shadow: 2px 2px 8px green;
 }
 
@@ -61,7 +61,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 150px;
+    font-size: clamp(50px, 8vw, 130px);
     text-shadow: 2px 2px 8px black;
 }
 .menu-wrap{
