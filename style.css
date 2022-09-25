@@ -19,7 +19,7 @@ body{
 .header-1{
     position: relative;
     height: 350px;
-    background: url('kepek/gambling.jpg');
+    background: url('kepek/gambling-banner.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
@@ -41,7 +41,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 150px;
+    font-size: clamp(50px, 8vw, 130px);
     text-shadow: 2px 2px 8px black;
 }
 
