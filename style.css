@@ -41,7 +41,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: clamp(50px, 8vw, 130px);
+    font-size: clamp(50px, 8vw, 100px);
     text-shadow: 2px 2px 8px green;
 }
 
