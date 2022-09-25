@@ -25,13 +25,23 @@ body{
     display: block;
     opacity: 100%;
 }
+
+.header-3{
+    position: relative;
+    height: 350px;
+    background: url('kepek/society.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    opacity: 100%;
+}
 .center{
     color: black;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 150px;
+    font-size: 100px;
     text-shadow: 2px 2px 8px green;
 }
 
@@ -45,6 +55,15 @@ body{
     text-shadow: 2px 2px 8px black;
 }
 
+.center-3{
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 150px;
+    text-shadow: 2px 2px 8px black;
+}
 .menu-wrap{
     width: 100%;
     background-color: darkgreen;
@@ -54,13 +73,18 @@ body{
     background-color: #c8352acc;
 }
 
-.menu-wrap-1 .nav-link{
+.menu-wrap-3{
+    width: 100%;
+    background-color: #2a6ec8cc;
+}
+
+.menu-wrap-1 .nav-link, .menu-wrap .nav-link, .menu-wrap-3 .nav-link{
     color: black;
     font-size: 1.15em;
     font-weight: bold;
     text-transform: uppercase;
 }
-.menu-wrap-1 .nav-link:hover{
+.menu-wrap-1 .nav-link:hover, .menu-wrap .nav-link:hover, .menu-wrap-3 .nav-link:hover{
     background-color:black;
     color: white;
 }
@@ -69,44 +93,20 @@ body{
     border-left: 1px solid #c25d55;
 }
 
-.menu {
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
+.menu-wrap .nav-item{
+    border-left: 1px solid rgb(54, 182, 54);
+    border-right: 1px solid rgb(54, 182, 54);
 }
 
-.menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(5, 100, 29);
-    overflow: hidden;
-}
-
-.menu ul li{
-    float: left;
-    text-align: center;
-    border-right: 1px solid rgb(24, 151, 109);
-    border-left: 1px solid rgb(24, 151, 109);
-}
-
-.menu ul li a {
-    display: block;
-    color: whitesmoke;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.menu ul li a:hover {
-    background-color: #111;
+.menu-wrap-3 .nav-item{
+    border-left: 1px solid rgb(54, 156, 182);
+    border-right: 1px solid rgb(54, 156, 182);
 }
 
 .main {
     margin-top: 15px;
     max-width: 75%;
 }
-
-
 
 .text-1 {
     background-color: #c8352aa2;
@@ -142,4 +142,17 @@ body{
     border-top-right-radius: 14px;
     min-height: 45px;
     color: #ffffff;
+}
+
+.card{
+    margin-left: 6%;
+    margin-top: 35px;
+}
+
+.clear{
+    clear: both;
+}
+
+.card img{
+    border-radius: 150px;
 }
