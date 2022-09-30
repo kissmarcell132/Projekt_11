@@ -26,6 +26,16 @@ body{
     opacity: 100%;
 }
 
+.header.a2{
+    position: relative;
+    height: 350px;
+    background: url('kepek/alkohol_banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    opacity: 100%;
+}
+
 .header-3{
     position: relative;
     height: 350px;
@@ -55,6 +65,16 @@ body{
     text-shadow: 2px 2px 8px black;
 }
 
+.center-a2{
+    color: rgb(51, 153, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: clamp(50px, 8vw, 130px);
+    text-shadow: 2px 2px 8px black;
+}
+
 .center-3{
     color: #ffffff;
     position: absolute;
@@ -73,18 +93,23 @@ body{
     background-color: #c8352acc;
 }
 
+.menu-wrap-a2{
+    width: 100%;
+    background-color: rgb(51, 153, 255);
+}
+
 .menu-wrap-3{
     width: 100%;
     background-color: #2a6ec8cc;
 }
 
-.menu-wrap-1 .nav-link, .menu-wrap .nav-link, .menu-wrap-3 .nav-link{
+.menu-wrap-1 .nav-link, .menu-wrap .nav-link, .menu-wrap-a2, .menu-wrap-3 .nav-link{
     color: black;
     font-size: 1.15em;
     font-weight: bold;
     text-transform: uppercase;
 }
-.menu-wrap-1 .nav-link:hover, .menu-wrap .nav-link:hover, .menu-wrap-3 .nav-link:hover{
+.menu-wrap-1 .nav-link:hover, .menu-wrap .nav-link:hover, .menu-wrap-a2, .menu-wrap-3 .nav-link:hover{
     background-color:black;
     color: white;
 }
@@ -101,6 +126,11 @@ body{
 .menu-wrap-3 .nav-item{
     border-left: 1px solid rgb(54, 156, 182);
     border-right: 1px solid rgb(54, 156, 182);
+}
+
+.menu-wrap-a2 .nav-item {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
 }
 
 .main {
@@ -120,6 +150,16 @@ body{
     margin-right: 15px; */
 }
 
+.text-a2 {
+    background-color: rgb(51, 153, 255);
+    border-radius: 14px;
+    padding: 30px;
+    font-size: 1.1em;
+    color: black;
+    text-align: justify;
+    height: 100%;
+}
+
 .text-0 {
     background-color: rgb(1, 95, 1);
     border-radius: 14px;
@@ -136,6 +176,10 @@ body{
     text-align: center;
 }
 
+.text-a2 h1, .text-a2 h2{
+    text-align: center;
+}
+
 .main .column {
     margin-top: 35px;
 }
@@ -147,7 +191,7 @@ body{
     border-radius: 14px;
 }
 
-.footer-1, .footer{
+.footer-1, .footer, .footer-a2{
     width: 75%;
     margin-top: 35px;
     text-align: center;
@@ -166,6 +210,11 @@ body{
 .footer-1{
     background-color: #c8352aa2;
     color: #ffffff;
+}
+
+.footer-a2{
+    background-color: white;
+    color: black;
 }
 
 .card{
