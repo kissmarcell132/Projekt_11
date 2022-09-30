@@ -103,13 +103,25 @@ body{
     background-color: #2a6ec8cc;
 }
 
-.menu-wrap-1 .nav-link, .menu-wrap .nav-link, .menu-wrap-a2, .menu-wrap-3 .nav-link{
+.menu-wrap-a2 .nav-link:hover, .menu-wrap .nav-link:hover, .menu-wrap-3 .nav-link:hover{
+    background-color:black;
+    color: white;
+}
+
+.menu-wrap-a2 .nav-link, .menu-wrap .nav-link, .menu-wrap-3 .nav-link{
     color: black;
     font-size: 1.15em;
     font-weight: bold;
     text-transform: uppercase;
 }
-.menu-wrap-1 .nav-link:hover, .menu-wrap .nav-link:hover, .menu-wrap-a2, .menu-wrap-3 .nav-link:hover{
+
+.menu-wrap-1 .nav-link, .menu-wrap .nav-link, .menu-wrap-3 .nav-link{
+    color: black;
+    font-size: 1.15em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.menu-wrap-1 .nav-link:hover, .menu-wrap .nav-link:hover, .menu-wrap-3 .nav-link:hover{
     background-color:black;
     color: white;
 }
@@ -213,7 +225,7 @@ body{
 }
 
 .footer-a2{
-    background-color: white;
+    background-color: rgb(51, 153, 255);
     color: black;
 }
 
